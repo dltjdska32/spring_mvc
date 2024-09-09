@@ -1,0 +1,8 @@
+package hello.servlet.web.frontcontroller.v1;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public interface ControllerV1 {
+    void process(HttpServletRequest req, HttpServletResponse resp) throws Exception;
+}
