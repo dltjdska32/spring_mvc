@@ -22,6 +22,6 @@ public class MemberSaveControllerV4 implements ControllerV4 {
         memberRepository.save(member);
 
         model.put("member", member);
-        return "save- result";
+        return "save-result";
     }
 }
